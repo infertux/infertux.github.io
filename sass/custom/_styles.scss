@@ -1,8 +1,12 @@
 // This File is imported last, and will override other styles in the cascade
 // Add styles here to make changes without digging in too much
 
-// Center images in articles
 article img {
+  // Center images in articles
   display:block; margin: 0 auto 1.5em;
+}
+
+body > footer {
+  text-align: center;
 }
 
