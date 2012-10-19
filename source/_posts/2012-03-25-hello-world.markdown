@@ -19,7 +19,7 @@ stuff.
 It happens that [Octopress](https://github.com/imathis/octopress) seems to be a
 sweat blog engine which fits me quite well so I'll give it a try.
 
-<img src="http://img190.imageshack.us/img190/2760/octopresslogo.png" alt="Octopress logo">
+![Octopress logo](/images/posts/2012-03-25-hello-world/octopress-logo.png)
 
 Now, a proper article should come soon...
 
