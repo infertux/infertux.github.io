@@ -44,7 +44,7 @@ The three most popular are:
 
 You may wonder why you have to use yet another tool to install Ruby and not simply use the one shipped with your system.
 In short, the version shipped with your system may be outdated and most importantly there is only *one* version.
-When you'll start to work on a couple of Ruby projects, you'll will ultimately end up working on a project which uses another version sooner or later.
+When you'll start to work on a couple of Ruby projects, you will ultimately end up working on a project which uses another version sooner or later.
 
 ![RVM logo](/images/posts/2012-10-19-an-introduction-to-the-ruby-ecosystem/rvm-logo.png)
 

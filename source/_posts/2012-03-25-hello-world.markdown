@@ -17,7 +17,7 @@ fun but if I want to be able to blog some day, I should spend time on other
 stuff.
 
 It happens that [Octopress](https://github.com/imathis/octopress) seems to be a
-sweat blog engine which fits me quite well so I'll give it a try.
+sweet blog engine which fits me quite well so I'll give it a try.
 
 ![Octopress logo](/images/posts/2012-03-25-hello-world/octopress-logo.png)
 
