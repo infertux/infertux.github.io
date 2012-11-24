@@ -7,12 +7,12 @@ categories:
 - dummy
 ---
 
-Here it is. Yet yet another shinny tech blog. It's been a while that I wanted to
+Here it is. Yet yet another shiny tech blog. It's been a while that I wanted to
 start one and because I like the <abbr title="Do-It-Yourself">DIY</abbr>
 principle, I had forked [toto](https://github.com/cloudhead/toto) and started
 some work adding new features.
 
-But time goes fast and I realize that making my own blog engine is certaintly
+But time goes fast and I realize that making my own blog engine is certainly
 fun but if I want to be able to blog some day, I should spend time on other
 stuff.
 
