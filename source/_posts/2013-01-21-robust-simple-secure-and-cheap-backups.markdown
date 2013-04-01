@@ -31,7 +31,7 @@ What else?
 ## Robust
 
 One may think RAID is the solution.
-To be fair, [I thought it was](http://blog.infertux.com/blog/2012/03/29/how-to-set-up-a-raid-1-under-gnu-slash-linux/) for a while before realizing it's not.
+To be fair, [I thought it was](http://blog.infertux.com/2012/03/29/how-to-set-up-a-raid-1-under-gnu-slash-linux/) for a while before realizing it's not.
 
 Duplicating data on multiple hard drives is fine to overcome hardware failures but what if the place catches on fire, or get water flooded, or collapses in an earthquake?
 Since all your duplicates are in the same physical location, you will still lose everything.
