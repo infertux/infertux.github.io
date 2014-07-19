@@ -4,7 +4,7 @@ require "stringex"
 
 ## -- Rsync Deploy config -- ##
 # Be sure your public key is listed in your server's ~/.ssh/authorized_keys file
-ssh_user       = "ix"
+ssh_user       = "blog"
 ssh_port       = "22"
 document_root  = "/var/www/blog.infertux.com/"
 rsync_delete   = true
@@ -246,6 +246,16 @@ task :rsync do
   end
   puts "## Deploying website via Rsync"
   ok_failed system("rsync -avze 'ssh -p #{ssh_port}' #{exclude} #{rsync_args} #{"--delete" unless rsync_delete == false} #{public_dir}/ #{ssh_user}:#{document_root}")
+end
+
+desc "Generate website and show diff from live website (Rsync only)"
+task :gen_diff => [:generate] do
+  require "tmpdir"
+  Dir.mktmpdir do |tmp_dir|
+    puts "## Fetching website via Rsync"
+    ok_failed system("rsync -aze 'ssh -p #{ssh_port}' #{rsync_args} #{ssh_user}:#{document_root} #{tmp_dir}")
+    system("diff -ru #{tmp_dir} #{public_dir} | vim -")
+  end
 end
 
 desc "deploy public directory to github pages"
