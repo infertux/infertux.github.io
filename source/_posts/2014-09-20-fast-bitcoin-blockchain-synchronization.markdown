@@ -34,7 +34,7 @@ The nice thing is that you don't have to trust me about the data since Bitcoin w
 
 Note that the blockchain files are [*not* platform-independent](https://github.com/bitcoin/bitcoin/issues/2293).
 This means using this mirror will work only for x86_64 machines.
-I'm planning to add an ARM mirror soon - please [let me know](mailto:hi@infertux.com) if this is something you're interested in.
+I'm planning to add an ARM mirror soon - please [let me know](mailto:blog@infertux.com) if this is something you're interested in.
 
 Hope that helps you set up more full nodes out there! :)
 
