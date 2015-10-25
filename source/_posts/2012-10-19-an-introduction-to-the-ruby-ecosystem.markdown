@@ -37,7 +37,7 @@ The three most popular are:
 
 - [Matz's Ruby Interpreter](http://www.ruby-lang.org/en/downloads/) (MRI): the reference implementation by [Matz](http://en.wikipedia.org/wiki/Yukihiro_Matsumoto)
 - [Rubinius](http://rubini.us/): a well-known fast Ruby implementation of Ruby
-- [JRuby](http://www.jruby.org/): a Java [<a id="fnl-1" href="#fn-1">1</a>] implementation
+- [JRuby](http://www.jruby.org/): a Java [<a id="fnl-2012-10-19-1" href="#fn-2012-10-19-1">1</a>] implementation
 
 
 ## RVM: the Ruby Version Manager
@@ -108,7 +108,7 @@ This website allows you to find the most used Gems in various categories.
 Suppose you want to learn which Gems could help you with background jobs.
 Heading to [ruby-toolbox.com/categories/Background_Jobs](https://www.ruby-toolbox.com/categories/Background_Jobs) will tell you that [Resque](https://www.ruby-toolbox.com/categories/Background_Jobs#resque) seems to be a good pick.
 
-This [video](http://railscasts.com/episodes/384-exploring-rubygems?autoplay=true) gives you a good insight into choosing the right Gem for your project [<a id="fnl-2" href="#fn-2">2</a>].
+This [video](http://railscasts.com/episodes/384-exploring-rubygems?autoplay=true) gives you a good insight into choosing the right Gem for your project [<a id="fnl-2012-10-19-2" href="#fn-2012-10-19-2">2</a>].
 
 
 ### Managing Gems
@@ -203,7 +203,7 @@ The current version is Rails 3 but the eagerly awaited forth release might pop o
 
 ## Sinatra: make a RESTful app in ten minutes
 
-[Sinatra](http://www.sinatrarb.com/) is a DSL [<a id="fnl-3" href="#fn-3">3</a>] for quickly creating web applications in Ruby with minimal effort.
+[Sinatra](http://www.sinatrarb.com/) is a DSL [<a id="fnl-2012-10-19-3" href="#fn-2012-10-19-3">3</a>] for quickly creating web applications in Ruby with minimal effort.
 It is particularly useful for prototyping and making simple APIs in a breeze.
 
 ```ruby Hello world with Sinatra
@@ -262,7 +262,7 @@ end
 
 Internally, Capybara uses a headless browser -- a "driver" -- which can be [Selenium](http://seleniumhq.org/), [Webkit](https://github.com/thoughtbot/capybara-webkit), etc.
 
-Likewise, you may hear about [Cucumber](http://cukes.info/) too [<a id="fnl-4" href="#fn-4">4</a>].
+Likewise, you may hear about [Cucumber](http://cukes.info/) too [<a id="fnl-2012-10-19-4" href="#fn-2012-10-19-4">4</a>].
 
 
 ## IRB: Interactive RuBy
@@ -318,19 +318,19 @@ If you wish, you can discuss and improve this at [Hacker News](https://news.ycom
 
 ## Footnotes
 
-[<a id="fn-1" href="#fnl-1">1</a>]
+[<a id="fn-2012-10-19-1" href="#fnl-2012-10-19-1">1</a>]
 If you're a Java programmer, well I'm sorry for you.
 You may consider stop debugging the infamous <abbr title="NullPointerException">NPE</abbr> of the day and go watch [this](http://www.youtube.com/watch?v=fDIEq92Mh6c) :).
 
-[<a id="fn-2" href="#fnl-2">2</a>]
+[<a id="fn-2012-10-19-2" href="#fnl-2012-10-19-2">2</a>]
 By the way, [railscasts.com](https://railscasts.com) is managed by [Ryan Bates](https://github.com/ryanb) who makes awesome screencasts about Ruby on Rails.
 You should definitely check them out if you're new to Ruby.
 
-[<a id="fn-3" href="#fnl-3">3</a>]
+[<a id="fn-2012-10-19-3" href="#fnl-2012-10-19-3">3</a>]
 DSL stands for _Domain Specific Language_, which means you have a custom language dedicated to a particular domain with specific keywords.
 Ruby's [metaprogramming](https://en.wikipedia.org/wiki/Metaprogramming) ability makes it easy to build really neat DSLs.
 
-[<a id="fn-4" href="#fnl-4">4</a>]
+[<a id="fn-2012-10-19-4" href="#fnl-2012-10-19-4">4</a>]
 Although it sounds like a nice idea at first glance, _I_ think the trade-off of spending a lot of time implementing [step definitions](https://github.com/cucumber/cucumber/wiki/Step-Definitions) to be able to get _somewhat_ human-readable specs is not worth it.
 That's why I prefer Capybara.
 
