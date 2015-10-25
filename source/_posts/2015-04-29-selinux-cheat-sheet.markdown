@@ -29,6 +29,12 @@ semodule_package -m mymodulelocal.mod -o mymodulelocal.pp
 And finally you can reload your `.pp` policy file:
 
 ```bash
-semodule -r mymodulelocal && semodule -i mymodulelocal.pp
+semodule -vr mymodulelocal; semodule -vi mymodulelocal.pp
+```
+
+Or as a handy one-liner:
+
+```bash
+checkmodule -Mmo mymodulelocal.mod mymodulelocal.te && semodule_package -m mymodulelocal.mod -o mymodulelocal.pp && (semodule -vr mymodulelocal || true) && semodule -vi mymodulelocal.pp
 ```
 
