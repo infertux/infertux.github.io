@@ -8,7 +8,7 @@ categories:
 ---
 
 This is a quick _howto_ to explain how to remove one of the identities of your GPG key.
-This is particularly useful if this email address is longer yours for some reason.
+This is particularly useful if this email address is no longer yours for some reason.
 
 Unless you've never published your key to a public server (unlikely!), you can't _delete_ an email address from your GPG key, but you can _revoke_ it.
 
