@@ -54,4 +54,3 @@ Here's the list of cool escape sequences you can use:
 
 No more `Ctrl-B + x` to kill that frozen tab of your _tmux_, no more `kill -9 THE_RIGHT_PID`.
 Hell yeah!
-
