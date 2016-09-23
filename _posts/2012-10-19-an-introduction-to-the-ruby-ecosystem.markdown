@@ -320,11 +320,12 @@ If you wish, you can discuss and improve this at [Hacker News](https://news.ycom
 
 [<a id="fn-2012-10-19-1" href="#fnl-2012-10-19-1">1</a>]
 If you're a Java programmer, well I'm sorry for you.
-You may consider stop debugging the infamous <abbr title="NullPointerException">NPE</abbr> of the day and go watch [this](http://www.youtube.com/watch?v=fDIEq92Mh6c) :).
+You may consider stop debugging that infamous <abbr title="NullPointerException">NPE</abbr> of the day and go watch [this](http://www.youtube.com/watch?v=fDIEq92Mh6c) :).
 
 [<a id="fn-2012-10-19-2" href="#fnl-2012-10-19-2">2</a>]
 By the way, [railscasts.com](https://railscasts.com) is managed by [Ryan Bates](https://github.com/ryanb) who makes awesome screencasts about Ruby on Rails.
 You should definitely check them out if you're new to Ruby.
+[Update: unfortunately, railscasts.com is pretty much dead nowadays.]
 
 [<a id="fn-2012-10-19-3" href="#fnl-2012-10-19-3">3</a>]
 DSL stands for _Domain Specific Language_, which means you have a custom language dedicated to a particular domain with specific keywords.

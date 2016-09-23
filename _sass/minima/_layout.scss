@@ -48,7 +48,6 @@
         color: $text-color;
         line-height: $base-line-height;
 
-        // Gaps between nav items, but not on the last one
         &:not(:last-child) {
             margin-right: 20px;
         }
@@ -112,7 +111,7 @@
 
 
 /**
- * Page content
+ * Pages
  */
 .page-content {
     padding: $spacing-unit 0;
@@ -122,6 +121,11 @@
     font-size: 20px;
 }
 
+
+
+/**
+ * Posts
+ */
 .post-list {
     margin-left: 0;
     list-style: none;
@@ -134,7 +138,6 @@
 .post-meta {
     color: $grey-color;
     display: block;
-    // float: left;
 }
 
 
@@ -142,11 +145,6 @@
     font-size: $base-font-size;
 }
 
-
-
-/**
- * Posts
- */
 .post-header {
     margin-bottom: $spacing-unit;
 
@@ -191,8 +189,21 @@
             font-size: 18px;
         }
     }
+
+    img {
+        margin: 0 auto 1.5em;
+        display: block;
+        border-radius:.3em;
+        box-shadow: rgba(0,0,0,0.15) 0 1px 4px;
+        border: #fff 0.5em solid;
+    }
 }
 
+
+
+/**
+ * Home
+ */
 .home {
     display: flex;
     flex-flow: row;
@@ -204,7 +215,6 @@
     > * {
         &:not(:last-child) {
             margin-right: 1rem;
-            // flex: 1 auto;
         }
     }
 }

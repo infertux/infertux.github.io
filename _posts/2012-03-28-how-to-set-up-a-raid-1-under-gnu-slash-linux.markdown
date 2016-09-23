@@ -198,7 +198,7 @@ it as a regular file system.
     sudo mount /dev/sde1 /tmp/data
 
 Don't forget this step. That is. __DO NOT FORGET THIS STEP!__
-I wasted one whole weekend recovering my data because I RTFM'ed too fast and
+I wasted one whole weekend recovering my data because I RTFM'd too fast and
 forgot this step. Sigh...
 
     sudo rsync -av --progress /tmp/data/ /data/

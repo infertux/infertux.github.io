@@ -267,7 +267,7 @@ Xen is now all set up, you need to `update-grub` then **reboot** to apply all th
 
 Here is a example config file to get you started with a HVM guest:
 
-```ruby example.cfg
+```ruby
 hostname = "test"
 kernel = "hvmloader"
 device_model = "qemu-dm"

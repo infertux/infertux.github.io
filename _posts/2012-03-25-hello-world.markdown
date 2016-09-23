@@ -22,4 +22,3 @@ sweet blog engine which fits me quite well so I'll give it a try.
 ![Octopress logo](/images/posts/2012-03-25-hello-world/octopress-logo.png)
 
 Now, a proper article should come soon...
-

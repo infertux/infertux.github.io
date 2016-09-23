@@ -95,17 +95,19 @@ Let's wrap it up, it will cost you **0 to less than 100 euros** in most cases.
 
 ## Show me the code!
 
-```bash Script to unlock and mount the partition
+```bash
+# Script to unlock and mount the partition
+
 [ -e /dev/mapper/data ] || cryptsetup luksOpen /dev/sda1 data && \
 fsck.jfs -v /dev/mapper/data && \
 mount /dev/mapper/data /data && \
 df -h /data
 ```
 
-```bash Example cron job to mirror changes
-#!/bin/bash
+```bash
+#!/bin/bash -eu
 
-set -eu
+# Example cron job to mirror changes
 
 LOG=/var/log/sync.log
 
