@@ -14,4 +14,4 @@ Please use <a href="https://raw.githubusercontent.com/infertux/dotfiles/master/0
 
 You can also hire me for contract work, I'm always interested to take on exciting projects.
 
-<span title="Don't forget to smile!" style="font-size: 2rem">&#9786;</span>
+<p title="Don't forget to smile!" style="font-size: 2rem; padding-top: 1rem; text-align: center">&#9786;</p>
