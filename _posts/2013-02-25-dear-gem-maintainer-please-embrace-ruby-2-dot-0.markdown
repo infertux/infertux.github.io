@@ -19,9 +19,9 @@ I've done some Python programming before I heard about Ruby. At the time, I was 
 
 So when I came across the [Python 3 Wall of Shame](https://python3wos.appspot.com/), I instantly bookmarked it and started spreading the word amongst friends hoping to "greenify" that wall of shame.
 
-Fast forward to last November, I had learnt about Ruby and RubyGems. I'd hack together a weekend project named [RubyGem Wall of Fame](http://labs.infertux.com/rubygems-wof/).
+Fast forward to last November, I had learnt about Ruby and RubyGems. I'd hack together a weekend project named [RubyGem Wall of Fame](/labs/rubygems-wof/).
 Basically I've been monitoring build statuses of popular Gems since then to see if things were improving.
-There is [a nice graph](http://labs.infertux.com/rubygems-wof/#evolution) at the bottom of the page and everything is updated hourly.
+There is [a nice graph](/labs/rubygems-wof/#evolution) at the bottom of the page and everything is updated hourly.
 
 Now we're in late February and the _Python 3 Wall of Shame_ has finally crossed the 50% threshold turning it into the _Python 3 Wall of Superpowers_. I haven't witnessed the exact date but it most likely happened during January.
 

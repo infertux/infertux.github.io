@@ -1,7 +1,7 @@
 Programmer Competency Questionnaire
 ===================================
 
-http://labs.infertux.com/programmer-competency/
+http://infertux.com/labs/programmer-competency/
 
 There are some nifty bits of CSS3 in there.
 On the other hand, don't look at the JavaScript, this is my first Backbone app from scratch thus it is probably filthy.
