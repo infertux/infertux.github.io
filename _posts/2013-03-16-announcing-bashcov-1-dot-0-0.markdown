@@ -25,7 +25,7 @@ Oddly enough, I didn't find any coverage tool for Bash except [shcov](http://cod
 Indeed, it doesn't work very well for me.
 I have covered lines marked as uncovered and some files completely missed although executed through another script (via `source`).
 Moreover, I'm not sure it is still being actively maintained.
-This makes me feel like a sad panda :(.
+This makes me feel like a sad panda :(
 
 Bashcov aims to be a neat and working coverage tool backed by SimpleCov and [simplecov-html](https://github.com/colszowka/simplecov-html).
 

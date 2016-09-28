@@ -86,9 +86,7 @@ Here's what I've done:
 ```
 
 ```bash
-#!/bin/bash
-
-set -eu
+#!/bin/bash -eu
 
 # fetch our current IP
 MY_IP="$(curl -s ifconfig.me)"

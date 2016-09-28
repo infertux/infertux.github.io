@@ -67,7 +67,7 @@ Quoting the [ArchLinux wiki](https://wiki.archlinux.org/index.php/Dm-crypt_with_
 > **LUKS** is an additional convenience layer which stores all of the needed setup information for dm-crypt.
 
 It is incredibly easy to use.
-Simply format a partition with `cryptsetup luksFormat /dev/sda1` and unlock it with `cryptsetup luksOpen /dev/sda1 data` -- _data_ is just an arbitrary mapping in `/dev/mapper/`.
+Simply format a partition with `cryptsetup luksFormat /dev/sda1` and unlock it with `cryptsetup open /dev/sda1 data` -- _data_ is just an arbitrary mapping in `/dev/mapper/`.
 
 The partition is locked on power outage or by unplugging the data cable (typically USB or e-SATA).
 
@@ -84,21 +84,19 @@ Personally, I use a [Sheevaplug](https://en.wikipedia.org/wiki/SheevaPlug) at on
 Sheevaplugs are designed to run 24/7 so they're very power-efficient and will cost you about 5 euros per year (based on current market prices here in France).
 And of course, they're completely fanless thus silent.
 
-I guess Raspberry Pi would be a good fit too.
-
 You might be wondering if having the hard drive spinning 24/7 will make it die prematurely.
 Apparently, it's actually start/stop cycles which induce temperature shifts that are bad for hard drives according to [this study](https://static.googleusercontent.com/external_content/untrusted_dlcp/research.google.com/en/us/archive/disk_failures.pdf) from Google.
 So you can let them spin _all the time_ safely!
 It's probably a good idea to have [automated SMART checks](http://sourceforge.net/apps/trac/smartmontools/wiki/TocDoc) to alert you when a disk is doing bad though.
 
-Let's wrap it up, it will cost you **0 to less than 100 euros** in most cases.
+To sum up, it will cost you **0 to less than 100 euros** in most cases.
 
 ## Show me the code!
 
 ```bash
 # Script to unlock and mount the partition
 
-[ -e /dev/mapper/data ] || cryptsetup luksOpen /dev/sda1 data && \
+[ -e /dev/mapper/data ] || cryptsetup open /dev/sda1 data && \
 fsck.jfs -v /dev/mapper/data && \
 mount /dev/mapper/data /data && \
 df -h /data

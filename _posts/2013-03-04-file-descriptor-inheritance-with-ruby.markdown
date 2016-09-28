@@ -13,8 +13,9 @@ I blindly assumed they would be inherited by child processes, which is not the c
 
 Here's an example:
 
+`$ cat fd.rb`
+
 ```ruby
-$ cat fd.rb
 file = File.open 'file', 'w+'
 fd = file.fileno
 cmd = "date >&#{fd}"
@@ -41,5 +42,5 @@ $ ruby fd.rb
 "Mon Mar 04 01:02:04 CET 2013\n"
 ```
 
-Hopefully this will save some time for others :).
+Hopefully this will save some time for others :)
 

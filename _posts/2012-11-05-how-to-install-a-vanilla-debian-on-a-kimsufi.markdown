@@ -181,7 +181,7 @@ dpkg-divert --divert /etc/grub.d/08_linux_xen --rename /etc/grub.d/20_linux_xen
 update-grub
 ```
 
-<img class="right" src="/images/posts/2012-11-05-how-to-install-a-vanilla-debian-on-a-kimsufi/xen_panda.png" width="300" alt="Xen">
+<img style="float: right" src="/images/posts/2012-11-05-how-to-install-a-vanilla-debian-on-a-kimsufi/xen_panda.png" width="300" alt="Xen">
 
 ### Select the `xl` toolstack
 
