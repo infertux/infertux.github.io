@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Zeyple</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="assets/bootstrap.min.css" media="screen">
+    <link rel="stylesheet" href="assets/zeyple.min.css">
+  </head>
+
+  <body>
+    <div class="navbar navbar-collapse collapse navbar-default navbar-fixed-top navbar-inverse">
+      <div class="container">
+        <div class="navbar-header">
+          <a href="/labs/zeyple" class="navbar-brand">Zeyple</a>
+        </div>
+        <div id="navbar-main">
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="https://github.com/infertux/zeyple#install" target="_blank">Installation</a></li>
+            <li><a href="https://github.com/infertux/zeyple" target="_blank">Source Code</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="page-header" id="banner">
+        <div class="row">
+          <div class="col-lg-12 jumbotron clearfix">
+            <img class="pull-right visible-lg" src="images/schema.png" alt="schema" />
+
+            <h1>Zeyple</h1>
+            <p>
+              Zeyple adds automatic
+              <a href="https://en.wikipedia.org/wiki/GNU_Privacy_Guard" target="_blank" data-toggle="tooltip" data-placement="top" title="A data encryption and decryption program that provides cryptographic privacy and authentication for communication">GPG</a>
+              encryption to your email server.
+            </p>
+            <img class="pull-right hidden-xs hidden-lg" src="images/schema.png" alt="schema" />
+          </div>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-lg-7">
+          <h2><em>Why would I need this?</em></h2>
+          <p>
+            If you're a system administrator in charge of a mail server, then you must know that a tremendous amount of <strong>sensitive information transits by email</strong>, from passwords to various log files.
+          </p>
+
+          <h2><em>But I have nothing to hide.</em></h2>
+          <p>
+            <strong>This idea is fundamentally flawed</strong>.
+            Sure, most of us usually send pretty innocent emails to our peers.
+            However, that one time when you'll need to send sensitive information, say your bank account details to your friend for example, you may feel like encrypting your email.
+            The problem with that is that you're making it extremely obvious that you are sending sensitive information for a third-party listening to your communications.
+          </p>
+
+          <p>
+            By encrypting every email by default, you can easily side step the issue.
+            Brute-forcing encrypted messages in order to decrypt their contents can certainly be done for a few targeted messages but it is a far more complex task to do it with all of them.
+          </p>
+
+          <h2><em>This is too complicated.</em></h2>
+          <p>
+            Once deployed on a server, Zeyple requires <strong>little to no maintenance</strong>.
+            However, the installation process is a bit rough around the edges at the moment.
+            We're planning to make it smoother by providing a <code>.deb</code> package at some point.
+            You can also use <a href="https://github.com/bastelfreak/scripts/blob/master/setup_zeyple.sh">this install script</a> if that helps.
+          </p>
+
+          <h2><em>Is this completely safe?</em></h2>
+          <p>
+            Unfortunately no.
+            This is due to the way emails work.
+            Email headers must be in plain text since they are used to route an email to its recipient through a series of relays.
+            These headers also include information such as the subject, the date it's been sent (including your computer's timezone), the email application used and so forth.
+            The <a href="https://www.darkmail.info/">Dark Mail Alliance</a> is working on this issue if you're interested to help.
+          </p>
+
+          <p>
+            Despite this, the email body <em>can</em> be encrypted and this is exactly what Zeyple does.
+
+            But as always with electronic security, it is virtually impossible to be 100% safe.
+            That is, <strong>security is a pile of layers &mdash; the more, the better</strong>.
+          </p>
+        </div>
+
+        <div class="col-lg-5">
+          <div class="panel panel-primary">
+            <div class="panel-heading">
+              <h3 class="panel-title"><strong>How does it work?</strong></h3>
+            </div>
+            <div class="panel-body">
+              <ol>
+                <li>Zeyple catches email from your <a href="https://en.wikipedia.org/wiki/Message_transfer_agent">MTA</a> queue.
+                <li>Then it encrypts it if it's got the recipient's GPG public key.
+                <li>Finally, it puts it back into the queue.
+              </ol>
+            </div>
+          </div>
+
+          <div class="panel panel-primary">
+            <div class="panel-heading">
+              <h3 class="panel-title"><strong>How can I help?</strong></h3>
+            </div>
+            <div class="panel-body">
+              <p>
+                Zeyple is a Free Software licensed under the terms of the <a href="https://github.com/infertux/zeyple/blob/master/LICENSE">AGPLv3</a>.
+              </p>
+
+              <p>
+                We know that a few people have been using Zeyple since late 2012 but it is still at an early stage.
+                You're very welcomed to deploy it on your setup and report any issues.
+              </p>
+
+              <p>
+                There are a few features which need to be implemented, you can have a look at the
+                <a href="https://github.com/infertux/zeyple/milestones">roadmap</a>.
+                If you feel like working on something there, please
+                <a href="mailto:zeyple@infertux.com">let us know</a>
+                since it might already be in the works.
+              </p>
+
+              <p>
+                We also gladly accept <a href="bitcoin:1ENzyeY3wNBhQypt85YHcCc6npVrQb5bJH?label=zeyple">Bitcoin donations</a> to support the project.
+              </p>
+            </div>
+          </div>
+
+          <div class="well text-muted">
+            <strong>You are not being tracked, well, almost not.</strong>
+            <br>
+            This website cares about your privacy, really.
+            There is no tracking system whatsover such as Google Analytics or other JavaScript trackers.
+            <br>
+            We only store a standard log of visits on our server in order to prevent potential abuse (<abbr title="Denial-of-service attacks">DoS</abbr>).
+            This log file is automatically truncated to keep only information about the last 30 days.
+          </div>
+        </div>
+      </div>
+
+      <footer>
+        <div class="row">
+          <div class="col-lg-12">
+            <ul class="list-unstyled">
+              <li class="pull-right"><a href="http://www.linux-magazine.com/Issues/2013/153/Email-Encryption-with-Zeyple">Linux Magazine article</a></li>
+              <li><a href="https://github.com/infertux/zeyple">GitHub</a></li>
+              <li><a href="mailto:zeyple@infertux.com">Contact</a></li>
+            </ul>
+          </div>
+        </div>
+      </footer>
+    </div>
+
+    <script src="assets/jquery.min.js"></script>
+    <script src="assets/bootstrap.min.js"></script>
+    <script src="assets/zeyple.js"></script>
+  </body>
+</html>
+

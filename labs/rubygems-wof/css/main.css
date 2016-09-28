@@ -1,0 +1,297 @@
+/* ==========================================================================
+   HTML5 Boilerplate styles - h5bp.com (generated via initializr.com)
+   ========================================================================== */
+
+html,
+button,
+input,
+select,
+textarea {
+    color: #222;
+}
+
+body {
+    font-size: 1em;
+    line-height: 1.4;
+}
+
+::-moz-selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+::selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+}
+
+img {
+    vertical-align: middle;
+}
+
+fieldset {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+textarea {
+    resize: vertical;
+}
+
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+
+body {
+    text-align: center;
+    background: #eee;
+}
+
+h1 {
+    font-size: 2.5em;
+    color: #ee7;
+    text-shadow: 1px 1px 0 #444, 2px 2px 0 #aaa;
+}
+
+table {
+    margin: auto;
+}
+
+table th, td {
+    border-bottom: 1px solid #ccc;
+}
+
+table th {
+    font-family: monospace;
+    padding: 0 1em;
+    width: 3em;
+}
+
+table td.yellow {
+    font-family: 'Dancing Script', cursive;
+    font-size: large;
+    background: #fefcea; /* Old browsers */
+    background: -moz-linear-gradient(top,  #fefcea 0%, #f1da36 100%); /* FF3.6+ */
+    background: -webkit-linear-gradient(top,  #fefcea 0%,#f1da36 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top,  #fefcea 0%,#f1da36 100%); /* Opera 11.10+ */
+    background: linear-gradient(to bottom,  #fefcea 0%,#f1da36 100%); /* W3C */
+}
+
+table td.green {
+    font-family: 'Dancing Script', cursive;
+    background: #b4e391; /* Old browsers */
+    background: -moz-linear-gradient(top, #b4e391 0%, #61c419 100%, #b4e391 100%); /* FF3.6+ */
+    background: -webkit-linear-gradient(top, #b4e391 0%,#61c419 100%,#b4e391 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top, #b4e391 0%,#61c419 100%,#b4e391 100%); /* Opera 11.10+ */
+    background: linear-gradient(to bottom, #b4e391 0%,#61c419 100%,#b4e391 100%); /* W3C */
+}
+
+table td.red {
+    font-family: 'Dancing Script', cursive;
+    background: #febbbb; /* Old browsers */
+    background: -moz-linear-gradient(top,  #febbbb 0%, #ff5c5c 100%); /* FF3.6+ */
+    background: -webkit-linear-gradient(top,  #febbbb 0%,#ff5c5c 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top,  #febbbb 0%,#ff5c5c 100%); /* Opera 11.10+ */
+    background: linear-gradient(to bottom,  #febbbb 0%,#ff5c5c 100%); /* W3C */
+}
+
+table td:first-child {
+    background: #999;
+    color: #fff;
+    padding: 0 .5em;
+}
+
+a {
+    color: #009;
+}
+
+table td:last-child {
+    border-right: 1px solid #ccc;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+#evolution {
+    width : 600px;
+    height: 384px;
+    margin: 8px auto;
+}
+
+.shiny {
+    text-shadow: 0 0 8px #ff0;
+}
+
+.incompatible a {
+    font-style: italic;
+    color: #c00;
+}
+
+.small {
+    font-size: small;
+    font-style: italic;
+}
+
+.cursive {
+    font-family: 'Dancing Script', cursive;
+}
+
+
+/* ==========================================================================
+   Media Queries
+   ========================================================================== */
+
+@media only screen and (min-width: 35em) {
+
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+       only screen and (min-resolution: 144dpi) {
+
+}
+
+/* ==========================================================================
+   Helper classes
+   ========================================================================== */
+
+.ir {
+    background-color: transparent;
+    border: 0;
+    overflow: hidden;
+    *text-indent: -9999px;
+}
+
+.ir:before {
+    content: "";
+    display: block;
+    width: 0;
+    height: 100%;
+}
+
+.hidden {
+    display: none !important;
+    visibility: hidden;
+}
+
+.visuallyhidden {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+}
+
+.visuallyhidden.focusable:active,
+.visuallyhidden.focusable:focus {
+    clip: auto;
+    height: auto;
+    margin: 0;
+    overflow: visible;
+    position: static;
+    width: auto;
+}
+
+.invisible {
+    visibility: hidden;
+}
+
+.clearfix:before,
+.clearfix:after {
+    content: " ";
+    display: table;
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+.clearfix {
+    *zoom: 1;
+}
+
+/* ==========================================================================
+   Print styles
+   ========================================================================== */
+
+@media print {
+    * {
+        background: transparent !important;
+        color: #000 !important; /* Black prints faster: h5bp.com/s */
+        box-shadow:none !important;
+        text-shadow: none !important;
+    }
+
+    a,
+    a:visited {
+        text-decoration: underline;
+    }
+
+    a[href]:after {
+        content: " (" attr(href) ")";
+    }
+
+    abbr[title]:after {
+        content: " (" attr(title) ")";
+    }
+
+    /*
+     * Don't show links for images, or javascript/internal links
+     */
+
+    .ir a:after,
+    a[href^="javascript:"]:after,
+    a[href^="#"]:after {
+        content: "";
+    }
+
+    pre,
+    blockquote {
+        border: 1px solid #999;
+        page-break-inside: avoid;
+    }
+
+    thead {
+        display: table-header-group; /* h5bp.com/t */
+    }
+
+    tr,
+    img {
+        page-break-inside: avoid;
+    }
+
+    img {
+        max-width: 100% !important;
+    }
+
+    @page {
+        margin: 0.5cm;
+    }
+
+    p,
+    h2,
+    h3 {
+        orphans: 3;
+        widows: 3;
+    }
+
+    h2,
+    h3 {
+        page-break-after: avoid;
+    }
+}
