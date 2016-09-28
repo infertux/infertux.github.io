@@ -24,3 +24,6 @@ exclude:
   - "*.sh"
   - Gemfile*
   - README.md
+
+include:
+  - .htaccess
