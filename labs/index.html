@@ -1,31 +1,82 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-    <meta name="keywords" content="infertux, labs, code, beta, demo" />
-    <meta name="author" content="Infertux" />
-    <meta name="robots" content="index, follow" />
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>Infertux Labs</title>
+  <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
+  <link rel="apple-touch-icon" type="image/png" href="/apple-touch-icon.png" />
 
-    <link href="style.css" rel="stylesheet" type="text/css" />
+  <meta name="keywords" content="infertux, labs, code, beta, demo" />
+  <meta name="robots" content="index, follow" />
+
+  <title>Infertux Labs</title>
+
+  <style>
+    body {
+      margin: 0.5rem auto;
+      font: 400 16px/1.5 monospace;
+      color: #FFF;
+      background: #000 url(bg.png) no-repeat top left;
+    }
+
+    h1 {
+      margin: 0;
+      padding: 71px 1rem 1rem 2rem;
+      font-style: italic;
+      font-size: 2rem;
+      float: left;
+      background: url(biohazard.png) no-repeat top right;
+    }
+
+    a {
+      color: #a80;
+      text-decoration: none;
+      outline: none;
+      font-weight: bold;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    nav {
+      padding: 1rem;
+      margin-left: 300px;
+      border-left: 2px solid #f70;
+    }
+
+    nav a:hover {
+      color: #fff;
+    }
+
+    li {
+      margin-bottom: 0.5rem;
+    }
+
+    @media (max-width: 768px) {
+      body { background: #000; }
+      h1 { display: none; }
+      nav { margin-left: 0; border-left: none; }
+      nav ul { list-style-image: inherit; }
+    }
+  </style>
 </head>
 
 <body>
+  <h1><a href="/" title="Back home">Infertux</a><span>Labs</span></h1>
 
-    <h1><a href="/" title="Back home">Infertux</a><span>Labs</span></h1>
+  <nav>
+    <strong>Here are some projects and experiments I've been working on...</strong>
 
-    <nav>
-        <h2>Experimental section</h2>
-        Here are some projects and experiments...<br />
-
-        <ul>
-            <li><strong><a href="lifechart/">Lifechart</a></strong> - Visualize your life on a chart</li>
-            <li><strong><a href="zeyple/">Zeyple</a></strong> - Automatic GPG encryption for your email server</li>
-            <li><strong><a href="rubygems-wof/">RubyGems Wall of Fame</a></strong> - List of Gems ready for the future</li>
-            <li><strong><a href="programmer-competency/">Programmer Competency Questionnaire</a></strong> - Assess your programming skills
-        </ul>
-    </nav>
-
+    <ul>
+      <li><a href="lifechart/">Lifechart</a> - Visualize your life on a chart</li>
+      <li><a href="https://github.com/infertux/bashcov">Bashcov</a> - Code coverage tool for Bash</li>
+      <li><a href="zeyple/">Zeyple</a> - Automatic GPG encryption for your email server</li>
+      <li><a href="https://github.com/infertux/ruby-bootstrap">Ruby Installer</a> - Bash script to install Ruby from source</li>
+      <li><a href="http://www.buckybox.com/">Bucky Box</a> - Software for local food enterprises</li>
+      <li><a href="programmer-competency/">Programmer Competency Questionnaire</a> - Assess your programming skills</li>
+    </ul>
+  </nav>
 </body>
 </html>
