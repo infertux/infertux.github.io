@@ -4,14 +4,30 @@ layout: default
 
 <div class="home">
   <div>
-      {% include about.html %}
+    <h1 class="page-heading">Projects</h1>
+
+    <p>Here are some projects I've been working on...</p>
+
+    <ul class="list">
+      <li><a href="/labs/lifechart/">Lifechart</a> &ndash; Visualize your life on a chart</li>
+      <li><a href="http://www.buckybox.com/">Bucky Box</a> &ndash; Software for local food enterprises</li>
+      <li><a href="https://github.com/infertux/bashcov">Bashcov</a> &ndash; Code coverage tool for Bash</li>
+      <li><a href="/labs/zeyple/">Zeyple</a> &ndash; Automatic GPG encryption for your email server</li>
+      <li><a href="https://github.com/infertux/sysechk">Sysechk</a> &ndash; Shell scripts to assess your computer security</li>
+      <li><a href="https://github.com/infertux/chef-bitcoin">Bitcoin Cookbook</a> &ndash; Chef cookbook to deploy a Bitcoin node</li>
+      <li><a href="https://github.com/infertux/ruby-bootstrap">Ruby Installer</a> &ndash; Bash script to install Ruby from source</li>
+      <li><a href="https://github.com/infertux/imap_guard">IMAP Guard</a> &ndash; RubyGem to manage emails on IMAP servers</li>
+      <li><a href="/labs/programmer-competency/">Programmer Competency Questionnaire</a> &ndash; Assess your programming skills</li>
+    </ul>
+
+    <h5><a href="https://github.com/infertux">See All</a></h5>
   </div>
 
   <div>
     <h1 class="page-heading">Latest Posts</h1>
 
-    <ul class="post-list">
-      {% for post in site.posts limit:3 %}
+    <ul class="list">
+      {% for post in site.posts limit:6 %}
         <li>
           <span class="post-meta">{{ post.date | date: "%F" }}</span>
           <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title | escape }}</a>
@@ -22,3 +38,5 @@ layout: default
     <h5><a href="/posts/">See All</a></h5>
   </div>
 </div>
+
+<p title="Don't forget to smile!" style="font-size: 2rem; text-align: center">&#9786;</p>

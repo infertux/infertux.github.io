@@ -114,7 +114,7 @@
  * Pages
  */
 .page-content {
-    padding: $spacing-unit 0;
+    padding: $spacing-unit / 2 0;
 }
 
 .page-heading {
@@ -126,20 +126,10 @@
 /**
  * Posts
  */
-.post-list {
-    margin-left: 0;
-    list-style: none;
-
-    > li {
-        margin-bottom: $spacing-unit / 2;
-    }
-}
-
 .post-meta {
-    color: $grey-color;
+    color: $grey-color-dark;
     display: block;
 }
-
 
 .post-link {
     font-size: $base-font-size;
@@ -210,11 +200,39 @@
 
     @include media-query($on-laptop) {
         flex-flow: column;
+
+        > * {
+            text-align: left !important;
+        }
     }
 
     > * {
+        width: 100%;
+        padding-bottom: $spacing-unit / 2;
+
+        &:last-child {
+            text-align: right;
+        }
+
         &:not(:last-child) {
             margin-right: 1rem;
         }
+    }
+}
+
+.list {
+    margin-left: 0;
+    list-style: none;
+
+    > li {
+        margin-bottom: $spacing-unit / 2;
+    }
+}
+
+img.bitcoin {
+    width: 1rem;
+
+    &:hover {
+        width: 99px;
     }
 }
