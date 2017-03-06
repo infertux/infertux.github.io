@@ -29,7 +29,7 @@ What about some code obfuscation just for the lulz?
 
 p JSON.parse(open(<<-RUBY
 
-  ugg  c  , !!e  h   ol
+  ugg  cf  , !!e  h   ol
   t  r z  f .  b  e t
   !nc  v  ! i1!    n
   pg   v  i v  g   l
