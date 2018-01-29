@@ -9,6 +9,7 @@ layout: default
     <p>Here are some projects I've been working on...</p>
 
     <ul class="list">
+      <li><a href="https://github.com/infertux/trappisto">Trappisto</a> &ndash; Interactive blockchain explorer</li>
       <li><a href="/labs/lifechart/">Lifechart</a> &ndash; Visualize your life on a chart</li>
       <li><a href="http://www.buckybox.com/">Bucky Box</a> &ndash; Software for local food enterprises</li>
       <li><a href="https://github.com/infertux/bashcov">Bashcov</a> &ndash; Code coverage tool for Bash</li>
@@ -27,7 +28,7 @@ layout: default
     <h1 class="page-heading">Latest Posts</h1>
 
     <ul class="list">
-      {% for post in site.posts limit:6 %}
+      {% for post in site.posts limit:7 %}
         <li>
           <span class="post-meta">{{ post.date | date: "%F" }}</span>
           <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title | escape }}</a>
