@@ -1,0 +1,3 @@
+[submodule "labs/programmer-competency"]
+	path = labs/programmer-competency
+	url = https://github.com/infertux/programmer-competency.git
