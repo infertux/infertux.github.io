@@ -1,4 +1,4 @@
 sudo: false
 language: ruby
-rvm: 2.5.1
+rvm: 2.5.3
 script: ./build.sh
