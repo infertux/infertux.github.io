@@ -23,7 +23,7 @@ permalink: /about/
 ### Contact
 
 You can contact me <a href="mailto:cedric AT felizard.eu" data-proofer-ignore>there</a>.
-Please use <a href="https://raw.githubusercontent.com/infertux/dotfiles/master/0xEEC73D5809A98A9B.asc" target="_blank">PGP</a> if you can.
+Please use <a href="https://felizard.eu/.well-known/openpgpkey/hu/rodd8k134jmdtzwaydzw8krk4mtytw1p" title="0xEEC73D5809A98A9B" target="_blank">OpenPGP</a> if you can.
 
 You can also <a href="https://www.linkedin.com/in/cedricfelizard">hire me</a> for contract work or your crazy startup, I'm always interested to take on exciting projects.
 
@@ -35,15 +35,4 @@ If you like <a href="/">what I build</a>, you can donate to me on
 
 This allows me to shift my time from writing proprietary software to writing Free Software.
 Hopefully, I'll be able to make a living solely from the latter one day... one glorious day.
-So I'm very grateful for any contributions toward that goal.
-
-### Enough fluffies, talk dirty to me!
-
-<p>I really love programming,
-from <span title="Did you know that `xor rax, rax` is faster than `mov rax, 0`?">crafting low-level x86 assembly</span>
-to <span title="Metaprogramming is my passion.">writing fancy Ruby on Rails apps</span>
-and <span title="DevOps FTW!">deploying them with Chef</span>.</p>
-
-<p>I also like to play with hardware,
-from spreading thermal grease
-to configuring GPIOs of <span title="Well... not so giant.">giant</span> robots.</p>
+Thus I am very grateful for any contributions toward that goal.
