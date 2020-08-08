@@ -1,6 +1,7 @@
 source "https://rubygems.org"
 
 gem "jekyll", "~> 3"
+gem "kramdown-parser-gfm"
 gem "html-proofer"
 
 # If you want to use GitHub Pages, remove the "gem "jekyll"" above and
