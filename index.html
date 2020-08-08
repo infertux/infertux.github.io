@@ -9,6 +9,7 @@ layout: default
     <p>Here are some projects I've been working on...</p>
 
     <ul class="list">
+      <li><a href="https://coronavirus.cyberbits.eu/">coronavirus.cyberbits.eu</a> &ndash; Coronavirus COVID-19 tracker</li>
       <li><a href="https://cyberbits.eu/">cyberbits.eu</a> &ndash; Software mirror, PGP server, NTP server and more</li>
       <li><a href="https://github.com/infertux/trappisto">Trappisto</a> &ndash; Interactive blockchain explorer</li>
       <li><a href="/labs/lifechart/">Lifechart</a> &ndash; Visualize your life on a chart</li>
@@ -27,7 +28,7 @@ layout: default
     <h1 class="page-heading">Latest Posts</h1>
 
     <ul class="list">
-      {% for post in site.posts limit:7 %}
+      {% for post in site.posts limit:8 %}
         <li>
           <span class="post-meta">{{ post.date | date: "%F" }}</span>
           <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title | escape }}</a>
