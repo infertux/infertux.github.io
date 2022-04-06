@@ -23,9 +23,9 @@ permalink: /about/
 ### Contact
 
 You can contact me <a href="mailto:cedric AT felizard.eu" data-proofer-ignore>there</a>.
-Please use <a href="https://felizard.eu/.well-known/openpgpkey/hu/rodd8k134jmdtzwaydzw8krk4mtytw1p" title="0xEEC73D5809A98A9B" target="_blank">OpenPGP</a> if you can.
+Please use <a href="https://felizard.eu/.well-known/openpgpkey/hu/rodd8k134jmdtzwaydzw8krk4mtytw1p" title="0xEEC73D5809A98A9B" target="_blank">OpenPGP</a> if possible.
 
-You can also <a href="https://www.linkedin.com/in/cedricfelizard">hire me</a> for contract work or your crazy startup, I'm always interested to take on exciting projects.
+You may also <a href="https://www.linkedin.com/in/cedricfelizard">hire me</a> for contract work or your crazy startup, I'm always interested to take on exciting projects.
 
 ### Donations
 
@@ -34,5 +34,5 @@ If you like <a href="/">what I build</a>, you can donate to me on
 <a href="https://www.patreon.com/infertux">patreon.com</a>.
 
 This allows me to shift my time from writing proprietary software to writing Free Software.
-Hopefully, I'll be able to make a living solely from the latter one day... one glorious day.
-Thus I am very grateful for any contributions toward that goal.
+Hopefully, I'll be able to make a living solely from the latter one day&hellip; one glorious day.
+Thus I am very grateful for any contributions toward that goal. Thank you!
