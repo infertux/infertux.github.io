@@ -12,7 +12,7 @@ categories:
 - Free Software
 ---
 
-The other day, I was reading [The amount of crap Windows users have to put up with is incredible](http://dendory.net/blog.php?id=509ec629).
+The other day, I was reading [The amount of crap Windows users have to put up with is incredible](https://dendory.net/blog.php?id=509ec629).
 It got me thinking I should explain why I left Windows and why you should at least try something else.
 Up to you to stick with Windows afterwards.
 
@@ -102,8 +102,8 @@ If you happen to be willing to give something else a try, I cannot recommend you
 It's particularly unfortunate to see how this distribution has been turned into a money-making thing over the years.
 Yeah, I'm talking about the recent addition of [invasive ads](https://www.eff.org/deeplinks/2012/10/privacy-ubuntu-1210-amazon-ads-and-data-leaks) for Amazon products whenever you want to launch a program.
 
-You can take this [test](http://www.zegeniestudios.net/ldc/) to see which distribution would fit you the best.
-[Mint LMDE](http://www.linuxmint.com/download_lmde.php) and [Fedora](https://fedoraproject.org/) seem to be a good fit for people at large these days.
+You can take this [test](https://www.zegeniestudios.net/ldc/) to see which distribution would fit you the best.
+[Mint LMDE](https://www.linuxmint.com/download_lmde.php) and [Fedora](https://fedoraproject.org/) seem to be a good fit for people at large these days.
 But again, do not hesitate to test other stuff.
 
 If you think you'll be more comfortable with OS X, go for it.

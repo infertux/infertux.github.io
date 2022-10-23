@@ -28,7 +28,7 @@ HashMap<String, Thing> allTheThings = new HashMap<String, Thing>();
 
 Here's an issue I ran into: there is no way to pick a random item from a collection in Java.
 
-In Java (example from [SO](http://stackoverflow.com/questions/124671/picking-a-random-element-from-a-set/124693#124693)):
+In Java (example from [SO](https://stackoverflow.com/questions/124671/picking-a-random-element-from-a-set/124693#124693)):
 
 ```java
 int size = myHashSet.size();
@@ -42,7 +42,7 @@ for(Object obj : myhashSet)
 }
 ```
 
-In [Ruby](http://ruby-doc.org/core-1.9.3/Array.html#method-i-sample):
+In [Ruby](https://ruby-doc.org/core-1.9.3/Array.html#method-i-sample):
 
 ```ruby
 my_collection.sample
@@ -72,14 +72,14 @@ Let's just stick with this shitty design for backward compatibility...
 ### Observer
 
 Want to use the Observer pattern for your Swing UI?
-Well, be aware that your class to observe can't be inherited since [Observable](http://docs.oracle.com/javase/6/docs/api/java/util/Observable.html) is a class and not an interface!
+Well, be aware that your class to observe can't be inherited since [Observable](https://docs.oracle.com/javase/6/docs/api/java/util/Observable.html) is a class and not an interface!
 And Java does not have multiple inheritance to help you here (though I don't advocate multiple inheritance).
 
-More on this on [SO](http://stackoverflow.com/questions/7281469/why-is-java-util-observable-not-an-abstract-class).
+More on this on [SO](https://stackoverflow.com/questions/7281469/why-is-java-util-observable-not-an-abstract-class).
 
 ### InternalFrameInternalFrameTitlePaneInternalFrameTitlePaneMaximizeButtonPainter
 
-No, this is not a crazy typo, look at the [doc](http://javadoc.bugaco.com/com/sun/java/swing/plaf/nimbus/InternalFrameInternalFrameTitlePaneInternalFrameTitlePaneMaximizeButtonPainter.html).
+No, this is not a crazy typo, look at the [doc](https://javadoc.bugaco.com/com/sun/java/swing/plaf/nimbus/InternalFrameInternalFrameTitlePaneInternalFrameTitlePaneMaximizeButtonPainter.html).
 
 Seriously, how would you get it right the first time?
 Oh wait, CTRL+Space, we meet again.
@@ -92,13 +92,13 @@ There is a whole [thread](https://news.ycombinator.com/item?id=4770861) on it by
 
 ### Date/time and calendar
 
-Working with dates and time is messy and [SimpleDateFormatter](http://docs.oracle.com/javase/6/docs/api/java/text/SimpleDateFormat.html) is convinced weeks start on Sunday and you can't change it.
+Working with dates and time is messy and [SimpleDateFormatter](https://docs.oracle.com/javase/6/docs/api/java/text/SimpleDateFormat.html) is convinced weeks start on Sunday and you can't change it.
 But hey, it's called "simple" for a reason I guess.
 
 
 ### No heredoc
 
-You end up using [StringBuilder](http://docs.oracle.com/javase/1.5.0/docs/api/java/lang/StringBuilder.html) when you could avoid it.
+You end up using [StringBuilder](https://docs.oracle.com/javase/1.5.0/docs/api/java/lang/StringBuilder.html) when you could avoid it.
 
 ## Obscure errors
 
@@ -120,7 +120,7 @@ I just added a new static field in a class, compiled, run again and it all blew 
 
     If you would like to submit a bug report, please include
     instructions on how to reproduce the bug and visit:
-      http://icedtea.classpath.org/bugzilla
+      https://icedtea.classpath.org/bugzilla
 
 What a lovely segfault!
 Why???
@@ -155,9 +155,9 @@ Then you should know what I'm talking about.
 Last but not least (I left this one for the end since it's an obvious one).
 
 Just today, I saw
-[so](http://thenextweb.com/apps/2013/01/11/following-active-exploits-mozilla-adds-all-recent-versions-of-java-to-its-firefox-add-on-blocklist/)
-[many](http://www.nbcnews.com/technology/technolog/us-warns-java-software-security-concerns-escalate-1B7938755)
-[posts](http://9to5mac.com/2013/01/11/apple-blocks-java-7-mac-plugin-in-os-x-following-discovered-security-vulnerability/)
+[so](https://thenextweb.com/apps/2013/01/11/following-active-exploits-mozilla-adds-all-recent-versions-of-java-to-its-firefox-add-on-blocklist/)
+[many](https://www.nbcnews.com/technology/technolog/us-warns-java-software-security-concerns-escalate-1B7938755)
+[posts](https://9to5mac.com/2013/01/11/apple-blocks-java-7-mac-plugin-in-os-x-following-discovered-security-vulnerability/)
 on Hacker News about recent critical exploits found in Java.
 Worst thing about it: Oracle doesn't seem to care at all and no upcoming patches are announced...
 
@@ -166,7 +166,7 @@ Worst thing about it: Oracle doesn't seem to care at all and no upcoming patches
 Yeah sure, plenty of them.
 Those above are just the ones on the top of my head that I had to deal with for this tiny MVC project.
 
-Here's [a](http://stackoverflow.com/questions/186964/java-core-api-anti-patterns-what-is-wrong/891589#891589) [few](http://www.jwz.org/doc/java.html) [links](https://duckduckgo.com/?q=java+sucks).
+Here's [a](https://stackoverflow.com/questions/186964/java-core-api-anti-patterns-what-is-wrong/891589#891589) [few](https://www.jwz.org/doc/java.html) [links](https://duckduckgo.com/?q=java+sucks).
 
 That's why I think Java is one of the worst programming languages ever and I avoid it like the plague.
 I wonder if there is polyglot programmers (who have tried other languages) who actually still _enjoy_ to code in Java.

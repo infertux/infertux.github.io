@@ -35,9 +35,9 @@ In a nutshell, his job is to take your source code as an input and to execute it
 
 The three most popular are:
 
-- [Matz's Ruby Interpreter](http://www.ruby-lang.org/en/downloads/) (MRI): the reference implementation by [Matz](http://en.wikipedia.org/wiki/Yukihiro_Matsumoto)
-- [Rubinius](http://rubini.us/): a well-known fast Ruby implementation of Ruby
-- [JRuby](http://www.jruby.org/): a Java [<a id="fnl-2012-10-19-1" href="#fn-2012-10-19-1">1</a>] implementation
+- [Matz's Ruby Interpreter](https://www.ruby-lang.org/en/downloads/) (MRI): the reference implementation by [Matz](https://en.wikipedia.org/wiki/Yukihiro_Matsumoto)
+- [Rubinius](https://rubini.us/): a well-known fast Ruby implementation of Ruby
+- [JRuby](https://www.jruby.org/): a Java [<a id="fnl-2012-10-19-1" href="#fn-2012-10-19-1">1</a>] implementation
 
 
 ## RVM: the Ruby Version Manager
@@ -108,7 +108,7 @@ This website allows you to find the most used Gems in various categories.
 Suppose you want to learn which Gems could help you with background jobs.
 Heading to [ruby-toolbox.com/categories/Background_Jobs](https://www.ruby-toolbox.com/categories/Background_Jobs) will tell you that [Resque](https://www.ruby-toolbox.com/categories/Background_Jobs#resque) seems to be a good pick.
 
-This [video](http://railscasts.com/episodes/384-exploring-rubygems?autoplay=true) gives you a good insight into choosing the right Gem for your project [<a id="fnl-2012-10-19-2" href="#fn-2012-10-19-2">2</a>].
+This [video](https://railscasts.com/episodes/384-exploring-rubygems?autoplay=true) gives you a good insight into choosing the right Gem for your project [<a id="fnl-2012-10-19-2" href="#fn-2012-10-19-2">2</a>].
 
 
 ### Managing Gems
@@ -129,7 +129,7 @@ Thankfully, there is a tool to avoid the hassle: Bundler.
 
 Bundler is a tool which maintains a consistent environment installing all the required Gems you need with your application.
 
-It uses a file named [Gemfile](http://gembundler.com/gemfile.html) which stands in the root directory of your project.
+It uses a file named [Gemfile](https://gembundler.com/gemfile.html) which stands in the root directory of your project.
 
 ```ruby
 source :rubygems
@@ -155,7 +155,7 @@ It is called the "pessimistic operator" that you can read as "approximately grea
 
 This is supposed to permit minor updates like security fixes but won't break your application because of a non-backward compatible API change -- which would be a major release.
 
-You can learn more about rational versioning policy [there](http://docs.rubygems.org/read/chapter/16#page74).
+You can learn more about rational versioning policy [there](https://docs.rubygems.org/read/chapter/16#page74).
 
 
 ### Using Bundler
@@ -174,7 +174,7 @@ You should not edit this file by hand.
 
 ## Rake: Ruby's `make`
 
-Basically, [Rake](http://rake.rubyforge.org/) allows you to run tasks that are defined in a file named `Rakefile`.
+Basically, [Rake](https://rake.rubyforge.org/) allows you to run tasks that are defined in a file named `Rakefile`.
 It is really useful to quickly call recurrent tasks used in a project.
 
 ```ruby
@@ -191,19 +191,19 @@ The most common use cases are:
 - `rake mrproper` will run the task _mrproper_
 - `rake mytask[param]` -- you can also pass in arguments like that
 
-One thing you need to bare in mind if you use [zsh](http://www.zsh.org/) is escaping brackets, i.e. `[` becomes `\[`.
+One thing you need to bare in mind if you use [zsh](https://www.zsh.org/) is escaping brackets, i.e. `[` becomes `\[`.
 
 
 ## Ruby on Rails: the Ruby web framework
 
-I'm not going to explain how to use Rails here since there are tons of very good tutorials on the web like [learning Rails the zombie way](http://railsforzombies.org/).
-Rails was created by [DHH](http://david.heinemeierhansson.com/) in 2005 and helped a lot in popularizing the Ruby language since then.
+I'm not going to explain how to use Rails here since there are tons of very good tutorials on the web like [learning Rails the zombie way](https://railsforzombies.org/).
+Rails was created by [DHH](https://david.heinemeierhansson.com/) in 2005 and helped a lot in popularizing the Ruby language since then.
 The current version is Rails 3 but the eagerly awaited forth release might pop out around Christmas -- stay tuned.
 
 
 ## Sinatra: make a RESTful app in ten minutes
 
-[Sinatra](http://www.sinatrarb.com/) is a DSL [<a id="fnl-2012-10-19-3" href="#fn-2012-10-19-3">3</a>] for quickly creating web applications in Ruby with minimal effort.
+[Sinatra](https://www.sinatrarb.com/) is a DSL [<a id="fnl-2012-10-19-3" href="#fn-2012-10-19-3">3</a>] for quickly creating web applications in Ruby with minimal effort.
 It is particularly useful for prototyping and making simple APIs in a breeze.
 
 ```ruby
@@ -217,11 +217,11 @@ end
 
 ## RSpec: the unit testing framework
 
-Some folks would talk about [TestUnit](http://test-unit.rubyforge.org/) but I would recommend using [RSpec](http://rspec.info/) since it comes with a nice DSL, tons of helpers and makes writing tests more enjoyable.
+Some folks would talk about [TestUnit](https://test-unit.rubyforge.org/) but I would recommend using [RSpec](https://rspec.info/) since it comes with a nice DSL, tons of helpers and makes writing tests more enjoyable.
 
 If you're not familiar with testing your code, you should really give it a try.
 It is definitely not a waste of time and will help you in many ways keeping a clean working code base on the long run.
-Ruby makes it very easy to do [TDD](http://en.wikipedia.org/wiki/Test-driven_development) and [BDD](http://en.wikipedia.org/wiki/Behavior-driven_development).
+Ruby makes it very easy to do [TDD](https://en.wikipedia.org/wiki/Test-driven_development) and [BDD](https://en.wikipedia.org/wiki/Behavior-driven_development).
 
 ```ruby
 describe "User"
@@ -234,7 +234,7 @@ end
 
 Writing tests is easy.
 But writing good _relevant_ tests in order to keep a coherent and fast test suite requires a bit of experience and to think twice before typing.
-A very good resource to teach you RSpec good practices is [betterspecs.com](http://betterspecs.org/).
+A very good resource to teach you RSpec good practices is [betterspecs.com](https://betterspecs.org/).
 
 
 ## Capybara: the integration testing framework
@@ -260,9 +260,9 @@ describe "the signup process" do
 end
 ```
 
-Internally, Capybara uses a headless browser -- a "driver" -- which can be [Selenium](http://seleniumhq.org/), [Webkit](https://github.com/thoughtbot/capybara-webkit), etc.
+Internally, Capybara uses a headless browser -- a "driver" -- which can be [Selenium](https://seleniumhq.org/), [Webkit](https://github.com/thoughtbot/capybara-webkit), etc.
 
-Likewise, you may hear about [Cucumber](http://cukes.info/) too [<a id="fnl-2012-10-19-4" href="#fn-2012-10-19-4">4</a>].
+Likewise, you may hear about [Cucumber](https://cukes.info/) too [<a id="fnl-2012-10-19-4" href="#fn-2012-10-19-4">4</a>].
 
 
 ## IRB: Interactive RuBy
@@ -300,11 +300,11 @@ I tried to present the most common tools but there are plenty of other greats th
 - [foreman](https://github.com/ddollar/foreman) is especially useful when you have a complex app that needs other software to run, such as Redis, a Sinatra web service, etc.
 - [SimpleCov](https://github.com/colszowka/simplecov) is a sweet code coverage tool that can merge coverage across multiple test suites like RSpec and Capybara
 - [Travis-CI](https://travis-ci.org/) is a marvelous hosted continuous integration service for the open source community
-- [brakeman](http://brakemanscanner.org/) is a static analysis security scanner for Ruby on Rails that will help you finding potential vulnerabilities in your app
-- [Ruby5](http://ruby5.envylabs.com) is a 5-min podcast released on Tuesdays and Fridays
-- [Ruby Rogues](http://rubyrogues.com/) is 1-hour weekly podcast
+- [brakeman](https://brakemanscanner.org/) is a static analysis security scanner for Ruby on Rails that will help you finding potential vulnerabilities in your app
+- [Ruby5](https://ruby5.envylabs.com) is a 5-min podcast released on Tuesdays and Fridays
+- [Ruby Rogues](https://rubyrogues.com/) is 1-hour weekly podcast
 - [pry](https://github.com/pry/pry) is IRB on steroids
-- the [Benchmark](http://ruby-doc.org/stdlib-1.9.3/libdoc/benchmark/rdoc/Benchmark.html) module provides methods to measure and report the time used to execute pieces of code
+- the [Benchmark](https://ruby-doc.org/stdlib-1.9.3/libdoc/benchmark/rdoc/Benchmark.html) module provides methods to measure and report the time used to execute pieces of code
 - `ri` is the equivalent of `man` for Ruby -- never forget to [RTFM](https://xkcd.com/293/) :)
 - Wow, this list is getting quite long...
 - ???
@@ -320,7 +320,7 @@ If you wish, you can discuss and improve this at [Hacker News](https://news.ycom
 
 [<a id="fn-2012-10-19-1" href="#fnl-2012-10-19-1">1</a>]
 If you're a Java programmer, well I'm sorry for you.
-You may consider stop debugging that infamous <abbr title="NullPointerException">NPE</abbr> of the day and go watch [this](http://www.youtube.com/watch?v=fDIEq92Mh6c) :).
+You may consider stop debugging that infamous <abbr title="NullPointerException">NPE</abbr> of the day and go watch [this](https://www.youtube.com/watch?v=fDIEq92Mh6c) :).
 
 [<a id="fn-2012-10-19-2" href="#fnl-2012-10-19-2">2</a>]
 By the way, [railscasts.com](https://railscasts.com) is managed by [Ryan Bates](https://github.com/ryanb) who makes awesome screencasts about Ruby on Rails.

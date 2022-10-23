@@ -15,14 +15,14 @@ They prefer to give you a dynamic IPv4 which changes every 24 hours.
 (By the way, some of them are even more evil and dare to route you through a `10/8` network!)
 
 That means if you want to reach your home connection remotely, you're screwed.
-Dynamic DNS providers like [DynDNS](http://dyn.com) help(ed) you with that but they seem to turn into paid services faster than mushrooms grow after the rain.
+Dynamic DNS providers like [DynDNS](https://dyn.com) help(ed) you with that but they seem to turn into paid services faster than mushrooms grow after the rain.
 And I don't want to pay for this kind of service that should come built-in with my ISP subscription IMO.
 
 Fortunately, if you happen to have your own DNS server, here's a solution: [TSIG](https://en.wikipedia.org/wiki/TSIG).
 
 ## Server configuration
 
-Here, I'm using [nsupdate](http://linux.die.net/man/8/nsupdate) that comes with [BIND](http://linux.die.net/man/8/nsupdate).
+Here, I'm using [nsupdate](https://linux.die.net/man/8/nsupdate) that comes with [BIND](https://linux.die.net/man/8/nsupdate).
 Note that you only need your primary DNS server to support TSIG since the primary server will automatically propagate updates to the secondaries.
 
 TSIG uses shared secret keys to authenticate with the server.
@@ -55,7 +55,7 @@ key toto.infertux.com. {
 };
 ```
 
-Following the [principle of least required privileges](https://en.wikipedia.org/wiki/Principle_of_least_privilege), I'm allowing the client to update only its attached resource record by using [_update-policy_](http://ipamworldwide.com/bind-options/update-policy-option.html):
+Following the [principle of least required privileges](https://en.wikipedia.org/wiki/Principle_of_least_privilege), I'm allowing the client to update only its attached resource record by using [_update-policy_](https://ipamworldwide.com/bind-options/update-policy-option.html):
 
 ```
 zone "infertux.com" {

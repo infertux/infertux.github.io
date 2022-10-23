@@ -25,7 +25,7 @@ This made me wonder how you could **Encrypt Your Precious Log Emails** [<a id="f
 Obviously, [GPG](https://en.wikipedia.org/wiki/GNU_Privacy_Guard) was the answer.
 But how do you make your server automatically encrypt all outgoing emails sent from a variety of applications?
 That is exactly what [Zeyple](https://github.com/infertux/zeyple) does.
-Assuming you configured [Postfix](http://www.postfix.org/) to send your emails, Zeyple acts as a proxy (or [filter](http://www.postfix.org/FILTER_README.html) in Postfix slang) to encrypt emails for the intended recipient(s).
+Assuming you configured [Postfix](https://www.postfix.org/) to send your emails, Zeyple acts as a proxy (or [filter](https://www.postfix.org/FILTER_README.html) in Postfix slang) to encrypt emails for the intended recipient(s).
 
 ## Is it ready?
 

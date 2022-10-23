@@ -16,7 +16,7 @@ So you want to cross-compile Bitcoin (or any C/C++ program in fact) from your x8
 This little howto aims to help you with that.
 It's intended for intermediate level, i.e. you should be familiar with the `./configure` and `make` commands but you don't need to have earlier  experience with cross-compilation.
 
-The first step is to identify what's called the [target triplet](http://wiki.osdev.org/Target_Triplet).
+The first step is to identify what's called the [target triplet](https://wiki.osdev.org/Target_Triplet).
 An easy way to do so is to run `gcc -dumpmachine` on the target machine.
 If you don't have `gcc` installed, you can install it to run that command then uninstall it right away.
 
@@ -50,7 +50,7 @@ $ arm-linux-gnueabihf-g++ -v # should be working and in the $PATH
 
 ### On any distro using crosstool-ng
 
-First, you need to [install crosstool-ng](http://crosstool-ng.org/#download_and_usage), the executable is named `ct-ng` and should be available to a non-root user.
+First, you need to [install crosstool-ng](https://crosstool-ng.org/#download_and_usage), the executable is named `ct-ng` and should be available to a non-root user.
 
 Then we check if `ct-ng` knows our target architecture:
 

@@ -37,9 +37,9 @@ But this figure is pretty inaccurate and it could be much more in reality:
 
 As you can see, **most Gems are not tested against Ruby 2.0** so one can't know if they're compatible -- we need to fix that.
 
-Whether or not your Gem is compatible, please simply add `- 2.0.0` to the [build matrix](http://about.travis-ci.org/docs/user/languages/ruby/#Choosing-Ruby-versions-implementations-to-test-against) of your `.travis.yml` -- you're using [Travis](https://travis-ci.org/) right?
+Whether or not your Gem is compatible, please simply add `- 2.0.0` to the [build matrix](https://about.travis-ci.org/docs/user/languages/ruby/#Choosing-Ruby-versions-implementations-to-test-against) of your `.travis.yml` -- you're using [Travis](https://travis-ci.org/) right?
 
-If you don't see much point in doing so, please read this quote from [the release announcement](http://www.ruby-lang.org/en/news/2013/02/24/ruby-2-0-0-p0-is-released/):
+If you don't see much point in doing so, please read this quote from [the release announcement](https://www.ruby-lang.org/en/news/2013/02/24/ruby-2-0-0-p0-is-released/):
 
 > Note that unlike 1.9.0, 2.0.0 IS a stable release, even though its TEENY is 0. All library authors are strongly recommended to support 2.0.0. As mentioned above, it will be comparatively easy to migrate from 1.9 to 2.0.
 >
@@ -54,5 +54,5 @@ Happy Rubying with 2.0! :D
 Bonus links for you:
 
 - [What's New in Ruby 2.0](https://speakerdeck.com/shyouhei/whats-new-in-ruby-2-dot-0)
-- [Ruby 2.0.0 by Example](http://blog.marc-andre.ca/2013/02/23/ruby-2-by-example/)
+- [Ruby 2.0.0 by Example](https://blog.marc-andre.ca/2013/02/23/ruby-2-by-example/)
 

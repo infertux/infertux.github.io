@@ -31,7 +31,7 @@ What else?
 ## Robust
 
 One may think RAID is the solution.
-To be fair, [I thought it was](http://blog.infertux.com/2012/03/29/how-to-set-up-a-raid-1-under-gnu-slash-linux/) for a while before realizing it's not.
+To be fair, [I thought it was](https://blog.infertux.com/2012/03/29/how-to-set-up-a-raid-1-under-gnu-slash-linux/) for a while before realizing it's not.
 
 Duplicating data on multiple hard drives is fine to overcome hardware failures but what if the place catches on fire, or get water flooded, or collapses in an earthquake?
 Since all your duplicates are in the same physical location, you will still lose everything.
@@ -87,7 +87,7 @@ And of course, they're completely fanless thus silent.
 You might be wondering if having the hard drive spinning 24/7 will make it die prematurely.
 Apparently, it's actually start/stop cycles which induce temperature shifts that are bad for hard drives according to [this study](https://static.googleusercontent.com/external_content/untrusted_dlcp/research.google.com/en/us/archive/disk_failures.pdf) from Google.
 So you can let them spin _all the time_ safely!
-It's probably a good idea to have [automated SMART checks](http://sourceforge.net/apps/trac/smartmontools/wiki/TocDoc) to alert you when a disk is doing bad though.
+It's probably a good idea to have [automated SMART checks](https://sourceforge.net/apps/trac/smartmontools/wiki/TocDoc) to alert you when a disk is doing bad though.
 
 To sum up, it will cost you **0 to less than 100 euros** in most cases.
 

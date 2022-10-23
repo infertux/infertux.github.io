@@ -14,7 +14,7 @@ As programmers, we all know we should use [ISO 8601](https://en.wikipedia.org/wi
 
 ![XKCD 1179](/images/posts/2013-12-28-iso-8601-for-programmers/iso_8601.png)
 
-Unfortunately, the POSIX standard does not always provide us with an easy way to use ISO 8601 with [strftime](http://man7.org/linux/man-pages/man3/strftime.3.html).
+Unfortunately, the POSIX standard does not always provide us with an easy way to use ISO 8601 with [strftime](https://man7.org/linux/man-pages/man3/strftime.3.html).
 That's why I'm posting here _the right way_ to do it:
 
 - date: `%Y-%m-%d` or `%F` for recent implementations (example: _2013-12-31_)
