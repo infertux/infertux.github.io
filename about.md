@@ -30,7 +30,7 @@ You may also <a href="https://www.linkedin.com/in/cedricfelizard">hire me</a> fo
 ### Donations
 
 If you like <a href="/">what I build</a>, you can donate to me on
-<a href="https://liberapay.com/infertux">librepay.com</a> or
+<a href="https://liberapay.com/infertux">liberapay.com</a> or
 <a href="https://www.patreon.com/infertux">patreon.com</a>.
 
 This allows me to shift my time from writing proprietary software to writing Free Software.
