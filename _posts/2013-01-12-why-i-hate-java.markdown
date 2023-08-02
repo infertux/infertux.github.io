@@ -28,7 +28,7 @@ HashMap<String, Thing> allTheThings = new HashMap<String, Thing>();
 
 Here's an issue I ran into: there is no way to pick a random item from a collection in Java.
 
-In Java (example from [SO](https://stackoverflow.com/questions/124671/picking-a-random-element-from-a-set/124693#124693)):
+In Java example from Stack Overflow:
 
 ```java
 int size = myHashSet.size();
@@ -74,8 +74,6 @@ Let's just stick with this shitty design for backward compatibility...
 Want to use the Observer pattern for your Swing UI?
 Well, be aware that your class to observe can't be inherited since [Observable](https://docs.oracle.com/javase/6/docs/api/java/util/Observable.html) is a class and not an interface!
 And Java does not have multiple inheritance to help you here (though I don't advocate multiple inheritance).
-
-More on this on [SO](https://stackoverflow.com/questions/7281469/why-is-java-util-observable-not-an-abstract-class).
 
 ### InternalFrameInternalFrameTitlePaneInternalFrameTitlePaneMaximizeButtonPainter
 
@@ -166,7 +164,7 @@ Worst thing about it: Oracle doesn't seem to care at all and no upcoming patches
 Yeah sure, plenty of them.
 Those above are just the ones on the top of my head that I had to deal with for this tiny MVC project.
 
-Here's [a](https://stackoverflow.com/questions/186964/java-core-api-anti-patterns-what-is-wrong/891589#891589) [few](https://www.jwz.org/doc/java.html) [links](https://duckduckgo.com/?q=java+sucks).
+Here's a [few](https://www.jwz.org/doc/java.html) [links](https://duckduckgo.com/?q=java+sucks).
 
 That's why I think Java is one of the worst programming languages ever and I avoid it like the plague.
 I wonder if there is polyglot programmers (who have tried other languages) who actually still _enjoy_ to code in Java.

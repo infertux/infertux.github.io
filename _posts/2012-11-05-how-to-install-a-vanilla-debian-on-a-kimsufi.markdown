@@ -22,9 +22,9 @@ These are some preliminary examinations, you can jump straight to the _(Re)insta
 
 There are some ways I've thought to install Debian Wheezy on a Kimsufi:
 
-- via the [manager](https://www.ovh.co.uk/managerv3/) ("Wheezy ALPHA" being available now):
+- via the [manager](https://www.ovh.com/manager/) ("Wheezy ALPHA" being available now):
   I'm not sure if we can make our very own custom partitioning keeping some existing data.
-  Moreover, your distro will be tainted with OVH's stuff like [RTM](https://help.ovh.co.uk/RealTimeMonitoring) and their SSH keys.
+  Moreover, your distro will be tainted with OVH's stuff like [RTM](https://help.ovh.com/RealTimeMonitoring) and their SSH keys.
   &rarr; _Nah_.
 
 - via qemu:
@@ -173,7 +173,7 @@ apt-get install xen-hypervisor xen-tools xen-utils
 
 ### Prioritize Xen
 
-Prioritize the Xen kernel over native ([more info](https://wiki.debian.org/Xen#Prioritise_Booting_Xen_Over_Native)):
+Prioritize the Xen kernel over native ([more info](https://wiki.debian.org/Xen_Installation_on_lenny)):
 
 ```bash
 dpkg-divert --divert /etc/grub.d/08_linux_xen --rename /etc/grub.d/20_linux_xen

@@ -11,7 +11,7 @@ categories:
 - teapot
 ---
 
-I finally [got rid](https://github.com/infertux/blog.infertux.com/commit/0348c9f78c824d2198899114fca60a21015d16fa) of the superfluous `blog/` in the URL having already a `blog` sub-domain.
+I finally got rid of the superfluous `blog/` in the URL having already a `blog` sub-domain.
 Of course, I didn't want to break old links so I added the following line in my [nginx](https://nginx.org/) config:
 
     rewrite ^/blog(.*)$ $1 permanent;
@@ -21,7 +21,7 @@ So I thought I would troll some nasty crawlers while I was at editing my nginx c
 
 Even though I don't use PHP, a lots of bots are spamming my logs with `GET /wp-login.php?action=register` and so forth.
 
-So from now on, I just tell them _[I'm a teapot](https://httpcats.herokuapp.com/418)_:
+So from now on, I just tell them _I'm a teapot_:
 
     location ~ \.(aspx|php|jsp|cgi)$ {
       return 418 "I'm a teapot!";

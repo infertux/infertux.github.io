@@ -11,7 +11,7 @@ categories:
 - SimpleCov
 ---
 
-Hey look! There's a demo: [infertux.github.com/bashcov/test_app](https://infertux.github.com/bashcov/test_app).
+Hey look! There's a demo: [infertux.github.io/bashcov/test_app](https://infertux.github.io/bashcov/test_app).
 
 ## What is it?
 

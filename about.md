@@ -18,7 +18,7 @@ permalink: /about/
   &amp; ampersands.
 </p>
 
-<p>I'm a software engineer by trade and <a href="https://en.wikipedia.org/wiki/DevOps#DevOps_as_a_job_title">devops</a> by passion &ndash; part-time entrepreneur, part-time freelancer and part-time living the life.</p>
+<p>I'm a Software Engineer by trade and <a href="https://en.wikipedia.org/wiki/DevOps">DevOps</a> by passion &ndash; part-time entrepreneur, part-time freelancer and part-time living the life.</p>
 
 ### Contact
 

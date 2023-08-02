@@ -55,7 +55,7 @@ key toto.infertux.com. {
 };
 ```
 
-Following the [principle of least required privileges](https://en.wikipedia.org/wiki/Principle_of_least_privilege), I'm allowing the client to update only its attached resource record by using [_update-policy_](https://ipamworldwide.com/bind-options/update-policy-option.html):
+Following the [principle of least required privileges](https://en.wikipedia.org/wiki/Principle_of_least_privilege), I'm allowing the client to update only its attached resource record by using _update-policy_:
 
 ```
 zone "infertux.com" {
