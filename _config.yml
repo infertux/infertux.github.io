@@ -8,22 +8,18 @@ url: "https://infertux.com" # the base hostname & protocol for your site
 markdown: kramdown
 highlighter: rouge
 
-permalink:     /posts/:year/:month/:day/:title/
+permalink: /posts/:year/:month/:day/:title/
 paginate_path: /page:num
-timezone:      UTC
+timezone: UTC
 
 liquid:
   error_mode: strict
 
 sass:
-    style: compressed
-    sass_dir: _includes
+  style: compressed
+  sass_dir: _includes
 
 exclude:
-  - vendor # for Travis
   - "*.sh"
   - Gemfile*
   - README.md
-
-include:
-  - .htaccess
