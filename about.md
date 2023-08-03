@@ -33,6 +33,4 @@ If you like <a href="/">what I build</a>, you can donate to me on
 <a href="https://liberapay.com/infertux">liberapay.com</a> or
 <a href="https://www.patreon.com/infertux">patreon.com</a>.
 
-This allows me to shift my time from writing proprietary software to writing Free Software.
-Hopefully, I'll be able to make a living solely from the latter one day&hellip; one glorious day.
-Thus I am very grateful for any contributions toward that goal. Thank you!
+Thank you!
