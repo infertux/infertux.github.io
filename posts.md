@@ -13,4 +13,4 @@ permalink: /posts/
 {% endfor %}
 </ul>
 
-<h5>Subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></h5>
+<small>Subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></small>
