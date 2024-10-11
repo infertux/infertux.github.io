@@ -106,7 +106,7 @@ The reference website for those is [rubygems.org](https://rubygems.org).
 If you're not familiar with the big names out there, you should go to [ruby-toolbox.com](https://www.ruby-toolbox.com/).
 This website allows you to find the most used Gems in various categories.
 Suppose you want to learn which Gems could help you with background jobs.
-Heading to [ruby-toolbox.com/categories/Background_Jobs](https://www.ruby-toolbox.com/categories/Background_Jobs) will tell you that [Resque](https://www.ruby-toolbox.com/categories/Background_Jobs#resque) seems to be a good pick.
+Heading to [ruby-toolbox.com/categories/Background_Jobs](https://www.ruby-toolbox.com/categories/Background_Jobs) will tell you that [Resque](https://www.ruby-toolbox.com/categories/Background_Jobs) <s>seems</s> used to be a good pick.
 
 This [video](https://railscasts.com/episodes/384-exploring-rubygems?autoplay=true) gives you a good insight into choosing the right Gem for your project [<a id="fnl-2012-10-19-2" href="#fn-2012-10-19-2">2</a>].
 
@@ -196,7 +196,7 @@ One thing you need to bare in mind if you use [zsh](https://www.zsh.org/) is esc
 
 ## Ruby on Rails: the Ruby web framework
 
-I'm not going to explain how to use Rails here since there are tons of very good tutorials on the web like [learning Rails the zombie way](https://railsforzombies.org/).
+I'm not going to explain how to use Rails here since there are tons of very good tutorials on the web.
 Rails was created by [DHH](https://david.heinemeierhansson.com/) in 2005 and helped a lot in popularizing the Ruby language since then.
 The current version is Rails 3 but the eagerly awaited forth release might pop out around Christmas -- stay tuned.
 

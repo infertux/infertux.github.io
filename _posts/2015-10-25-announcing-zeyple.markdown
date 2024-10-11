@@ -34,7 +34,7 @@ I got feedback from solo hobbyists to universities using it and this is quite ex
 Anyway, if that sounds of interest to you, you're very welcome to try it out on your own setup.
 There are [a few ways to install it](https://github.com/infertux/zeyple/blob/master/INSTALL.md) but I haven't gotten to build official packages for your favorite distribution, [yet](https://github.com/infertux/zeyple/issues/1).
 
-And here's the README for more information: [https://github.com/infertux/zeyple#readme](https://github.com/infertux/zeyple#readme)
+And here's the README for more information: [https://github.com/infertux/zeyple](https://github.com/infertux/zeyple?tab=readme-ov-file)
 
 ## Footnotes
 

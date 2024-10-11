@@ -32,7 +32,7 @@ Bashcov aims to be a neat and working coverage tool backed by SimpleCov and [sim
 ## How does it work?
 
 Ruby has a [coverage module](https://www.ruby-doc.org/stdlib-1.9.3/libdoc/coverage/rdoc/Coverage.html) which computes the coverage on demand.
-Unfortunately, Bash doesn't have such niceties but we can use the [xtrace feature](https://www.gnu.org/software/bash/manual/bashref.html#index-BASH_005fXTRACEFD-178) which prints every line executed using [PS4](https://www.gnu.org/software/bash/manual/bashref.html#index-PS4).
+Unfortunately, Bash doesn't have such niceties but we can use the [xtrace feature](https://www.gnu.org/software/bash/manual/bashref.html#index-BASH_005fXTRACEFD) which prints every line executed using [PS4](https://www.gnu.org/software/bash/manual/bashref.html#index-PS4).
 
 After a bit of parsing, it sends results through SimpleCov which generates an awesome HTML report.
 

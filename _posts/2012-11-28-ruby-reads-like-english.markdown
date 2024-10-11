@@ -49,7 +49,7 @@ tr(' -,a-z', '\.-:n-za-m')).
 **This is valid Ruby code!**
 
 You can run it safely (at least on 1.9.3).
-It'll output [the latest updated RubyGem](https://guides.rubygems.org/rubygems-org-api/#activity) -- obviously!
+It'll output [the latest updated RubyGem](https://guides.rubygems.org/rubygems-org-api/#activity-methods) -- obviously!
 
 And [here](https://gist.github.com/4165066) is the commented version if this code isn't crystal clear to you. :)
 

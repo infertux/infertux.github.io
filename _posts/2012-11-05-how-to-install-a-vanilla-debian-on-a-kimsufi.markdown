@@ -221,7 +221,7 @@ _xend_ will not start any more (see `/etc/init.d/xen` for more info).
 
 #### Disable Xen ballooning & set dom0 dedicated RAM
 
-Use `free -m` to see how much RAM you're using and set a fair amount of [dedicated memory](https://wiki.xen.org/wiki/Xen_Best_Practices#Xen_dom0_dedicated_memory_and_preventing_dom0_memory_ballooning) by adding the two lines into `/etc/default/grub`:
+Use `free -m` to see how much RAM you're using and set a fair amount of [dedicated memory](https://wiki.xenproject.org/wiki/Xen_Project_Best_Practices#Xen_Project_dom0_dedicated_memory_and_preventing_dom0_memory_ballooning) by adding the two lines into `/etc/default/grub`:
 
 ```bash
 # Xen boot parameters for all Xen boots
@@ -253,7 +253,7 @@ Unless you have room to save VMs states, disable it in `/etc/default/xendomains`
 
 #### Enough CPU time
 
-Add these two lines into `/etc/rc.local` ([more info](https://wiki.xen.org/wiki/Xen_Best_Practices#Xen_credit_scheduler_domain_weights_and_making_sure_dom0_gets_enough_CPU_time_to_serve_IO_requests_.28disk.2Fnet.29)):
+Add these two lines into `/etc/rc.local` ([more info](https://wiki.xenproject.org/wiki/Xen_Project_Best_Practices#Xen_Project_credit_scheduler_domain_weights_and_making_sure_dom0_gets_enough_CPU_time_to_serve_IO_requests_.28disk.2Fnet.29)):
 
 ```bash
 # Give dom0 two times more CPU time than guests
