@@ -1,6 +1,7 @@
 source "https://rubygems.org"
 
 gem "jekyll", "~> 3"
+gem "base64" # XXX: dependency for jekyll
 gem "kramdown-parser-gfm"
 gem "html-proofer"
 gem "webrick"
