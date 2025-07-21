@@ -21,7 +21,7 @@ drive parlance.  Also, you don't want to format this first drive so we'll see
 how to build a RAID 1 array on our already running system without losing data or
 using a third drive.
 
-<a href="https://www.flickr.com/photos/knowprose/111119035/" title="Old Hard Drive... circa 1982 (1) by TaranRampersad, on Flickr"><img src="/images/posts/2012-03-28-how-to-set-up-a-raid-1-under-gnu-slash-linux/111119035_c65e65c164_z.jpg" width="640" height="480" alt="Old Hard Drive... circa 1982 (1)"></a>
+<img src="/images/posts/2012-03-28-how-to-set-up-a-raid-1-under-gnu-slash-linux/111119035_c65e65c164_z.jpg" width="640" height="480" alt="Old Hard Drive... circa 1982 (1)">
 
 This how-to should be suitable for any GNU/Linux distro (the only
 distro-specific step is explained for Fedora and Debian families).
