@@ -22,8 +22,8 @@ permalink: /about/
 
 ### Contact
 
-You can contact me <a href="mailto:cedric AT felizard.eu" data-proofer-ignore>there</a>.
-Please use <a href="https://felizard.eu/.well-known/openpgpkey/hu/rodd8k134jmdtzwaydzw8krk4mtytw1p" title="0xEEC73D5809A98A9B" target="_blank">OpenPGP</a> if possible.
+You can contact me <a href="mailto:cedric AT felizard.fr" data-proofer-ignore>there</a>.
+Please use <a href="https://pgp.cyberbits.eu/pks/lookup?search=0x4093f1e2c12d77d1fcaf1007eec73d5809a98a9b&fingerprint=on&op=index" title="0xEEC73D5809A98A9B" target="_blank">OpenPGP</a> if possible.
 
 You may also <a href="https://www.linkedin.com/in/cedricfelizard">hire me</a> for contract work or your crazy startup, I'm always interested to take on exciting projects.
 
