@@ -30,9 +30,10 @@ You may also <a href="https://www.linkedin.com/in/cedricfelizard">hire me</a> fo
 ### Donations
 
 If you like <a href="/">what I build</a>, you can donate to me on
-<a href="https://github.com/sponsors/infertux">GitHub</a>,
+<a href="https://buymeacoffee.com/infertux">buymeacoffee.com</a>,
+<a href="https://www.patreon.com/infertux">patreon.com</a>,
 <a href="https://liberapay.com/infertux">liberapay.com</a>,
-<a href="https://www.patreon.com/infertux">patreon.com</a> or
+<a href="https://github.com/sponsors/infertux">GitHub</a> or
 <a href="https://thanks.dev">thanks.dev</a>.
 
 Thank you!
