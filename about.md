@@ -12,7 +12,7 @@ permalink: /about/
   <a href="https://en.wikipedia.org/wiki/Free_software">free</a>/<a href="https://www.parabola.nu/">libre software</a>,
   <a href="https://en.wikipedia.org/wiki/Open-source_hardware">open hardware</a>,
   <a href="https://infertux.com/labs/zeyple/">privacy</a>,
-  <a href="https://infertux.com/labs/lifechart/">philosophy</a>,
+  <a href="https://infertux.github.io/lifechart/">philosophy</a>,
   <a href="https://supermarket.chef.io/cookbooks/bitcoin">cryptocurrencies</a>,
   <a href="https://en.wikipedia.org/wiki/Digital_nomad">travelling</a>
   &amp; ampersands.

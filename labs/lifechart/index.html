@@ -2,33 +2,11 @@
 <html lang="en">
 <head>
   <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="Visualize your life on a chart">
-
-  <title>Lifechart</title>
-
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.5/css/bootstrap.min.css" integrity="sha384-AysaV+vQoT3kOAXZkl02PThvDr8HYKPZhNT5h/CXfBThSRXQ6jW5DO2ekP5ViFdi" crossorigin="anonymous">
-
-  <style>
-    input:invalid {
-      box-shadow: 0 0 3px 1px red;
-    }
-
-    input:focus:invalid {
-      outline: none;
-    }
-  </style>
+  <title>Lifechart has moved</title>
+  <!-- the chart data lives in the URL fragment, so carry it over to keep bookmarks working -->
+  <script>location.replace("https://infertux.github.io/lifechart/" + location.hash);</script>
 </head>
-
-<body class="m-1">
-  <div class="container">
-    <div id="elm-lifechart-app">Loading...</div>
-  </div>
-
-  <script src="lifechart.min.js"></script>
-  <script>
-    const elmLifechartDiv = document.querySelector("#elm-lifechart-app");
-    const elmLifechartApp = Elm.Lifechart.embed(elmLifechartDiv);
-  </script>
+<body>
+  <p>Lifechart has moved to <a href="https://infertux.github.io/lifechart/">infertux.github.io/lifechart</a>.</p>
 </body>
 </html>
